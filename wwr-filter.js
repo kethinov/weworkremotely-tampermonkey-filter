@@ -42,7 +42,8 @@
           s.innerHTML.includes('Kotlin') ||
           s.innerHTML.includes('Machine Learning') ||
           s.innerHTML.includes('ML') ||
-          s.innerHTML.includes('Python')
+          s.innerHTML.includes('Python') ||
+          s.innerHTML.includes('Designer')
       ) {
           s.parentNode.parentNode.style.display = 'none'
       }
